@@ -6,34 +6,48 @@ body {
 
 h1 {
     text-align: center;
+    font-family: "Arial Rounded MT Bold"
 }
 
 h2 {
     text-align: center;
+    font-family: cursive;
+}
+
+.landing-page-images {
+
 }
 
 p  {
     text-align: center;
+    min-width: 200px;
 }
 
-.center {
-    display: block;
+embed {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    display: block;
+}
+.center {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+
 }
 
 /* Navigation */
 
 .navigation {
     box-sizing: border-box;
-    background-color: #3587A4;
+    background-color: #003B95;
     overflow: auto;
     padding: 18px 50px;
     position: relative;
     top: 0;
     width: 100%;
     z-index: 999;
+
 }
 
 ul {
@@ -43,7 +57,7 @@ ul {
 }
 
 li {
-    color: #000000;
+
     display: inline-block;
     font-family: 'Oxygen', sans-serif;
     font-weight: 300;
@@ -51,6 +65,33 @@ li {
     margin: 0;
     padding: 20px 18px 10px 18px;
     text-transform: uppercase;
+}
+
+.overview {
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #003B95;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.overview-element {
+    display: inline-block;
+    height: 135px;
+    width: 270px;
+    margin: 0 10px;
+    position: relative;
+}
+
+.overview-element a{
+    position:absolute;
+    top:15px;
+    z-index:10;
+    left:30px;
+}
+
+.navigation li [href]{
+    color: white;
 }
 
 .active {
@@ -69,7 +110,7 @@ table {
 }
 
 thead th {
-    background: #88CCF1;
+    background: #003B95;
     color: #FFF;
     font-family: 'Lato', sans-serif;
     font-size: 18px;
@@ -103,4 +144,38 @@ th, td {
     width: 77%;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
 
+
+[href] {
+    color: black;
+    text-decoration: none;
+}
+
+.header {
+    background-color: #003B95;
+    margin: -25px;
+    padding: 10px;
+    color: white;
+}
+
+.main {
+    margin: 40px;
+    overflow: auto;
+}
+
+.introduction {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.footer {
+    background-color: #003B95;
+    height: 70px;
+}
+
+.footer li {
+    color: white;
+    padding-bottom: 20px;
+}
